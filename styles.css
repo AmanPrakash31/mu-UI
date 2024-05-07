@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e6e5e5f8; /* Grey background */
+}
+
+.navbar {
+  background-color: #fff; /* White navbar */
+  color: #333; /* Text color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  flex-grow: 1;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically center the items */
+  padding: 0 20px;
+}
+
+.logo,
+.user-logo {
+  display: flex; /* Ensure the logo and company name are aligned vertically */
+  align-items: center; /* Vertically center the items */
+}
+
+.logo img,
+.user-logo img {
+  height: 45px;
+  margin-right: 14px;
+}
+.company-name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #901d1d;
+}
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.center-title {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.center-title h1 {
+  margin: 0;
+}
+
+main {
+  margin-top: 60px; /* Adjust according to the navbar height */
+  padding: 20px;
+}
+
+footer {
+  background-color: #404257; /* Blue footer */
+  color: #fff; /* Text color */
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; /* Align items at both ends */
+}
